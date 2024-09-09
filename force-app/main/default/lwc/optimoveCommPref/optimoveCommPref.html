@@ -1,0 +1,136 @@
+<!--
+  @description       : 
+  @author            : SkyPlanner - Dianelys Velazquez
+  @group             : 
+  @last modified on  : 09-08-2024
+  @last modified by  : SkyPlanner - Dianelys Velazquez
+-->
+<template>
+    <lightning-card>
+        <h3 lwc:if={loaded} slot="title">
+            <lightning-icon
+                icon-name="utility:bundle_config"
+                size="small"
+                class="slds-m-right_small"
+            ></lightning-icon>
+            Choose your communication preferences
+        </h3>
+        <h3 lwc:else slot="title">
+            <lightning-icon
+                icon-name="utility:bundle_config"
+                size="small"
+                class="slds-m-right_small"
+            ></lightning-icon>
+            Communication Preferences [Optimove]
+        </h3>
+        <p class="slds-p-horizontal_small"></p>
+        <template lwc:if={customerId}>
+            <template if:false={loaded}>
+                <lightning-button
+                    variant="brand-outline"
+                    label="Retrieve"
+                    slot="actions"
+                    onclick={handleRetrieve}
+                ></lightning-button>
+            </template>
+        </template>
+        <template lwc:else>
+            <div class="slds-grid slds-p-horizontal_medium">
+                <div>
+                    <lightning-icon
+                        icon-name="utility:warning"
+                        alternative-text="Warning"
+                        variant="warning"
+                        title="warning"
+                        size="small"
+                    ></lightning-icon>
+                </div>
+                <div>
+                    <p class="slds-p-horizontal_medium">
+                        One ID is empty for this customer. It should be filled
+                        in order to retrieve Optimove Communication Preferences.
+                    </p>
+                </div>
+            </div>
+        </template>
+        <template lwc:if={loading}>
+            <lightning-spinner
+                alternative-text="Loading"
+                size="small"
+            ></lightning-spinner>
+        </template>
+        <template lwc:if={loaded}>
+            <div class="slds-p-horizontal_small">
+                <table class="slds-table">
+                    <tr>
+                        <th></th>
+                        <template
+                            for:each={preferences.general.channels}
+                            for:item="chHeader"
+                        >
+                            <th key={chHeader.id}>
+                                <div
+                                    class="slds-text-align_center slds-text-heading_small"
+                                >
+                                    {chHeader.label}
+                                </div>
+                            </th>
+                        </template>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <template
+                            for:each={preferences.general.channels}
+                            for:item="chGen"
+                        >
+                            <th key={chGen.name} class="slds-text-align_center">
+                                <lightning-input
+                                    type="checkbox"
+                                    name={chGen.uniqueId}
+                                    checked={chGen.optIn}
+                                    onchange={handleChange}
+                                >
+                                </lightning-input>
+                            </th>
+                        </template>
+                    </tr>
+                    <tr>
+                        <th colspan={cols}>
+                            <div
+                                class="slds-text-align_center slds-text-heading_small slds-p-vertical_small"
+                            >
+                                Topics
+                            </div>
+                        </th>
+                    </tr>
+                    <template for:each={preferences.topics} for:item="topic">
+                        <tr key={topic.id} class="slds-m-vertical_medium">
+                            <td title={topic.description}>{topic.name}</td>
+                            <template for:each={topic.channels} for:item="ch">
+                                <td key={ch.id} class="slds-text-align_center">
+                                    <lightning-input
+                                        type="checkbox"
+                                        name={ch.uniqueId}
+                                        checked={ch.optIn}
+                                        onchange={handleChange}
+                                    >
+                                    </lightning-input>
+                                </td>
+                            </template>
+                        </tr>
+                    </template>
+                </table>
+            </div>
+
+            <p slot="footer" class="slds-clearfix" lwc:if={pendingChanges}>
+                <lightning-button
+                    variant="brand"
+                    label="Update"
+                    title="Update preferences in Optimove"
+                    onclick={handleConfirm}
+                    class="slds-m-left_x-small slds-float_right"
+                ></lightning-button>
+            </p>
+        </template>
+    </lightning-card>
+</template>

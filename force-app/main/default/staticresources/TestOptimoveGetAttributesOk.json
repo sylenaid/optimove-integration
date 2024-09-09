@@ -1,0 +1,1286 @@
+[
+  {
+    "RealFieldName": "AGE",
+    "Alias": "Age",
+    "FieldType": "Bigint",
+    "Value": "-1"
+  },
+  {
+    "RealFieldName": "AVERAGE_DEPOSIT_AMOUNT",
+    "Alias": "Average Deposit Amount, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "CASHOUT_RATIO_3M",
+    "Alias": "Cashout Ratio, Last Three Months",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "TOTAL_NUMBER_OF_TRADES",
+    "Alias": "Total Number of Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "TOTAL_VOLUME",
+    "Alias": "Total Volume, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "TOTAL_VOLUME_2W",
+    "Alias": "Total Volume, Last Two Weeks",
+    "FieldType": "Decimal",
+    "Value": null
+  },
+  {
+    "RealFieldName": "TOTAL_WITHDRAWAL_AMOUNT",
+    "Alias": "Total Withdrawal Amount, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "TOTAL_WITHDRAWAL_AMOUNT_2W",
+    "Alias": "Total Withdrawal Amount, Last Two Weeks",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "TOTAL_WITHDRAWAL_AMOUNT_3M",
+    "Alias": "Total Withdrawal Amount, Last Three Months",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "DAYS_SINCE_REGISTRATION",
+    "Alias": "Days Since Registration",
+    "FieldType": "Bigint",
+    "Value": "676"
+  },
+  {
+    "RealFieldName": "DAYS_SINCE_DEMO_ACCOUNT_REGISTRATION_DATE",
+    "Alias": "Days Since Demo Account Registration Date",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "DAYS_SINCE_LIVE_ACCOUNT_REGISTRATION_DATE",
+    "Alias": "Days Since Live Account Registration Date",
+    "FieldType": "Bigint",
+    "Value": "676"
+  },
+  {
+    "RealFieldName": "DAYS_SINCE_FIRST_DEPOSIT",
+    "Alias": "Days Since First Deposit",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "DEPOSIT_AMOUNT_CHANGE_RATIO_3_DAYS",
+    "Alias": "Deposit Amount Change Ratio 3 Days",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "DEPOSIT_AMOUNT_MONTHLY_CHANGE",
+    "Alias": "Deposit Amount Monthly Change",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "FOREX_DAYS_IN_CHURN",
+    "Alias": "Forex Days in Churn",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "FOREX_DAYS_IN_REACTIVATED",
+    "Alias": "Forex Days in Reactivated",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "FOREX_DAYS_SINCE_LAST_REACTIVATION",
+    "Alias": "Forex Days Since Last Reactivation",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_TIMES_CHURNED",
+    "Alias": "Forex Number of Times Churned",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "DAYS_SINCE_READY_FOR_FUNDING_DATE",
+    "Alias": "Days Since Ready for Funding Date",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IF_CHURN_PREDICTION",
+    "Alias": "Churn Probability Score",
+    "FieldType": "Decimal",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IF_CHURN_PREDICTION_PERCENTILE",
+    "Alias": "Rank in Churn Probability",
+    "FieldType": "Int",
+    "Value": null
+  },
+  {
+    "RealFieldName": "DAYS_SINCE_LAST_DEPOSIT",
+    "Alias": "Days Since Last Deposit",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IF_CHURN_PREDICTION_PERCENTILE_LCS",
+    "Alias": "Rank in LCS - Churn Probability",
+    "FieldType": "Int",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IF_CONVERSION_PREDICTION",
+    "Alias": "Conversion Probability Score",
+    "FieldType": "Decimal",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IF_CONVERSION_PREDICTION_PERCENTILE",
+    "Alias": "Rank in Conversion Probability",
+    "FieldType": "Int",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IF_PROBABILITY_TO_BECOME_TOP_SPENDER",
+    "Alias": "Becoming Top Spender Score",
+    "FieldType": "Decimal",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IF_REACTIVATION_PREDICTION",
+    "Alias": "Reactivation Probability Score",
+    "FieldType": "Decimal",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IF_REACTIVATION_PREDICTION_PERCENTILE",
+    "Alias": "Rank in Reactivation Probability",
+    "FieldType": "Int",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IF_TOP_SPENDER_PREDICTION_PERCENTILE",
+    "Alias": "Rank in Becoming Top Spender",
+    "FieldType": "Int",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IF_TOP_SPENDER_PREDICTION_PERCENTILE_LCS",
+    "Alias": "Rank by LCS Becoming Top Spender",
+    "FieldType": "Int",
+    "Value": null
+  },
+  {
+    "RealFieldName": "NUMBEROFCAMPAIGNS_1M",
+    "Alias": "Number of Campaigns, last 30 days",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "NUMBEROFCAMPAIGNS_1W",
+    "Alias": "Number of Campaigns, last 7 days",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "DAYS_SINCE_LAST_LOGIN",
+    "Alias": "Days Since Last Login",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "RESPONSERATE_1M",
+    "Alias": "Response Rate, last 30 days",
+    "FieldType": "Decimal",
+    "Value": null
+  },
+  {
+    "RealFieldName": "RESPONSERATE_1W",
+    "Alias": "Response Rate, last 7 days",
+    "FieldType": "Decimal",
+    "Value": null
+  },
+  {
+    "RealFieldName": "AVGSESSIONTIME",
+    "Alias": "Avg. Session Time in Minutes",
+    "FieldType": "Decimal",
+    "Value": null
+  },
+  {
+    "RealFieldName": "DAYSSINCELASTVISIT",
+    "Alias": "Days Since Last Visit",
+    "FieldType": "Int",
+    "Value": "9999"
+  },
+  {
+    "RealFieldName": "NUMBEROFVISITSLAST14DAYS",
+    "Alias": "Number Of Visits, Last 14 days",
+    "FieldType": "Int",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "NUMBEROFVISITSLAST30DAYS",
+    "Alias": "Number Of Visits, Last 30 Days",
+    "FieldType": "Int",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "TOTALVISITTIMELAST14DAYS",
+    "Alias": "Total Visit Time, Last 14 Days",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "TOTALVISITTIMELAST30DAYS",
+    "Alias": "Total Visit Time, Last 30 Days",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "OPTIMAILDAYSSINCELASTCLICKED",
+    "Alias": "OptiMail - Days Since Last Clicked",
+    "FieldType": "Bigint",
+    "Value": "22"
+  },
+  {
+    "RealFieldName": "OPTIMAILDAYSSINCELASTOPENED",
+    "Alias": "OptiMail - Days Since Last Opened",
+    "FieldType": "Bigint",
+    "Value": "9999"
+  },
+  {
+    "RealFieldName": "DAYS_SINCE_LAST_WITHDRAWAL",
+    "Alias": "Days Since Last Withdrawal",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FIRST_DEPOSIT_AMOUNT",
+    "Alias": "First Deposit Amount, Lifetime",
+    "FieldType": "Decimal",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_AVERAGE_DAILY_VOLUME",
+    "Alias": "Average Daily Volume, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_AVERAGE_DAILY_VOLUME_2W",
+    "Alias": "Average Daily Volume, Last Two Weeks",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_AVERAGE_DAILY_VOLUME_3M",
+    "Alias": "Average Daily Volume, Last Three Months",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_AVERAGE_LEVERAGE",
+    "Alias": "Average Leverage, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_AVERAGE_LEVERAGE_2W",
+    "Alias": "Average Leverage, Last Two Weeks",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_AVERAGE_LEVERAGE_3M",
+    "Alias": "Average Leverage, Last Three Months",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_CUSTOMER_PROFIT",
+    "Alias": "Customer Profit, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_DAYS_SINCE_FIRST_POSITION_CLOSE_DATE",
+    "Alias": "Days Since First Position Close Date",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_DAYS_SINCE_FIRST_POSITION_OPEN_DATE",
+    "Alias": "Days Since First Position Open Date",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_DAYS_SINCE_LAST_ACTIVITY",
+    "Alias": "Days Since Last Activity",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_DAYS_SINCE_LAST_POSITION_CLOSE_DATE",
+    "Alias": "Days Since Last Position Close Date",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_DAYS_SINCE_LAST_POSITION_OPEN_DATE",
+    "Alias": "Days Since Last Position Open Date",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_DAYS_SINCE_LIFECYCLE_STAGE_CHANGE",
+    "Alias": "Days Since Lifecycle Stage Change",
+    "FieldType": "Bigint",
+    "Value": "53"
+  },
+  {
+    "RealFieldName": "AVERAGE_DEPOSIT_AMOUNT_3M",
+    "Alias": "Average Deposit Amount, Last Three Months",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_NET_REVENUE",
+    "Alias": "Net Revenue, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_NET_REVENUE_2W",
+    "Alias": "Net Revenue, Last Two Weeks",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_NET_REVENUE_3M",
+    "Alias": "Net Revenue, Last Three Months",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_ACTIVITY_DAYS",
+    "Alias": "Number of Activity Days, Lifetime",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_CLOSED_POSITIONS",
+    "Alias": "Number of Closed Positions, Lifetime",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_OPEN_POSITIONS",
+    "Alias": "Number of Open Positions, Lifetime",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_POSITIONS_OPENED",
+    "Alias": "Number of Positions Opened, Lifetime",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_POSITIONS_OPENED_2W",
+    "Alias": "Number of Positions Opened, Last Two Weeks",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "AVERAGE_MONTHLY_DEPOSIT_AMOUNT",
+    "Alias": "Average Monthly Deposit Amount, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_POSITIONS_OPENED_3M",
+    "Alias": "Number of Positions Opened, Last Three Months",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_TRADE_DAYS",
+    "Alias": "Number of Trade Days, Lifetime",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_TRADE_DAYS_2W",
+    "Alias": "Number of Trade Days, Last Two Weeks",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_TRADE_DAYS_3M",
+    "Alias": "Number of Trade Days, Last Three Months",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "FOREX_TOTAL_LEVERAGE",
+    "Alias": "Total Leverage, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_TOTAL_LEVERAGE_2W",
+    "Alias": "Total Leverage, Last Two Weeks",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_TOTAL_LEVERAGE_3M",
+    "Alias": "Total Leverage, Last Three Months",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_TOTAL_VOLUME",
+    "Alias": "Total Volume, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_TOTAL_VOLUME_2W",
+    "Alias": "Total Volume, Last Two Weeks",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "BONUS_DEPOSIT_RATIO",
+    "Alias": "Bonus Deposit Ratio, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "FOREX_TOTAL_VOLUME_3M",
+    "Alias": "Total Volume, Last Three Months",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "LAST_DEPOSIT_AMOUNT",
+    "Alias": "Last Deposit Amount, Lifetime",
+    "FieldType": "Decimal",
+    "Value": null
+  },
+  {
+    "RealFieldName": "MONTHS_SINCE_REGISTRATION",
+    "Alias": "Months Since Registration",
+    "FieldType": "Bigint",
+    "Value": "22"
+  },
+  {
+    "RealFieldName": "NET_CASH",
+    "Alias": "Net Cash, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NET_CASH_2W",
+    "Alias": "Net Cash, Last Two Weeks",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_BONUS_GRANTED",
+    "Alias": "Number of Bonus Granted, Lifetime",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_COMMODITIES_TRADES",
+    "Alias": "Number of Commodities Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_CRYPTO_TRADES",
+    "Alias": "Number of Crypto Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_CURRENCY_TRADES",
+    "Alias": "Number of Currency Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_DEPOSIT_DAYS",
+    "Alias": "Number of Deposit Days, Lifetime",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_DEPOSIT_DAYS_2W",
+    "Alias": "Number of Deposit Days, Last Two Weeks",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_DEPOSIT_DAYS_3M",
+    "Alias": "Number of Deposit Days, Last Three Months",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_DEPOSITS",
+    "Alias": "Number of Deposits, Lifetime",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_DEPOSITS_2W",
+    "Alias": "Number of Deposits, Last Two Weeks",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "BONUS_DEPOSIT_RATIO_3M",
+    "Alias": "Bonus Deposit Ratio, Last Three Months",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_DEPOSITS_3M",
+    "Alias": "Number of Deposits, Last Three Months",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_EQUITY_SHARES_TRADES",
+    "Alias": "Number of Equity Shares Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_INDICES_TRADES",
+    "Alias": "Number of Indices Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_MT4_NY4_TRADES",
+    "Alias": "Number of Mt4 Ny4 Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_MT4_TY3_TRADES",
+    "Alias": "Number of Mt4 Ty3 Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_MT5_NY4_TRADES",
+    "Alias": "Number of Mt5 Ny4 Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_MT5_TY3_TRADES",
+    "Alias": "Number of Mt5 Ty3 Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_OTHER_TRADES",
+    "Alias": "Number of Other Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "CASHOUT_RATIO",
+    "Alias": "Cashout Ratio, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_RATES_TRADES",
+    "Alias": "Number of Rates Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_V20_TRADES",
+    "Alias": "Number of V20 Trades, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_WITHDRAWAL_DAYS",
+    "Alias": "Number of Withdrawal Days, Lifetime",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_WITHDRAWALS",
+    "Alias": "Number of Withdrawals, Lifetime",
+    "FieldType": "Bigint",
+    "Value": "0"
+  },
+  {
+    "RealFieldName": "TIME_BETWEEN_REGISTRATION_TO_RFF",
+    "Alias": "Time Between Registration To Rff, Lifetime",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "TIME_BETWEEN_RFF_TO_FUNDED",
+    "Alias": "Time Between Rff To Funded, Lifetime",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "TIME_FROM_FUNDED_TO_TRADED",
+    "Alias": "Time From Funded To Traded, Lifetime",
+    "FieldType": "Bigint",
+    "Value": null
+  },
+  {
+    "RealFieldName": "TOTAL_BONUS_GRANTED_AMOUNT",
+    "Alias": "Total Bonus Granted Amount, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "TOTAL_DEPOSIT_AMOUNT",
+    "Alias": "Total Deposit Amount, Lifetime",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "TOTAL_DEPOSIT_AMOUNT_2W",
+    "Alias": "Total Deposit Amount, Last Two Weeks",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "TOTAL_DEPOSIT_AMOUNT_3M",
+    "Alias": "Total Deposit Amount, Last Three Months",
+    "FieldType": "Decimal",
+    "Value": "0.0000"
+  },
+  {
+    "RealFieldName": "ACCOUNT_AGE",
+    "Alias": "Account Age",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "ACCOUNTCLOSED",
+    "Alias": "Account Closed",
+    "FieldType": "Nvarchar",
+    "Value": "false"
+  },
+  {
+    "RealFieldName": "CITY",
+    "Alias": "City",
+    "FieldType": "Nvarchar",
+    "Value": "Chesterfield"
+  },
+  {
+    "RealFieldName": "IMPORTED_CUSTOMER_CREATION_DATE",
+    "Alias": "Imported Customer Upload Date",
+    "FieldType": "Date",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IMPORTED_CUSTOMER_SOURCE_NAME",
+    "Alias": "Imported Customer File Name",
+    "FieldType": "Varchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "MOSTEFFECTIVECHANNEL",
+    "Alias": "Most Effective Channel",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "RANDOMCUSTOMERSLICE",
+    "Alias": "Random Customer Slice",
+    "FieldType": "Nvarchar",
+    "Value": "3rd 10% slice"
+  },
+  {
+    "RealFieldName": "FOREX_FAVORITE_ASSET_NAME_3M",
+    "Alias": "Forex Favorite Asset Name 3M",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "UTM_CAMPAIGN",
+    "Alias": "UTM Campaign (Last Session)",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "UTM_CONTENT",
+    "Alias": "UTM Content (Last Session)",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "UTM_MEDIUM",
+    "Alias": "UTM Medium (Last Session)",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "UTM_SOURCE",
+    "Alias": "UTM Source (Last Session)",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "UTM_TERM",
+    "Alias": "UTM Term (Last Session)",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "CLIENTACCOUNTS",
+    "Alias": "Client Accounts",
+    "FieldType": "Nvarchar",
+    "Value": "Retail Practice"
+  },
+  {
+    "RealFieldName": "OPTIMAILUNSUBSCRIBED",
+    "Alias": "OptiMail Unsubscribed",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "COMMODITIESEXPERIENCE",
+    "Alias": "Commodities Experience",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "COUNTRY",
+    "Alias": "Country",
+    "FieldType": "Nvarchar",
+    "Value": "United Kingdom"
+  },
+  {
+    "RealFieldName": "CURRENCY",
+    "Alias": "Currency",
+    "FieldType": "Nvarchar",
+    "Value": "Unknown"
+  },
+  {
+    "RealFieldName": "DATE_OF_BIRTH",
+    "Alias": "Date of Birth",
+    "FieldType": "Date",
+    "Value": "01/01/1900 00:00:00"
+  },
+  {
+    "RealFieldName": "DEPOSIT_ACTIVITY_CATEGORICAL",
+    "Alias": "Deposit Activity Categorical",
+    "FieldType": "Nvarchar",
+    "Value": "No Deposits"
+  },
+  {
+    "RealFieldName": "DEPOSIT_ACTIVITY_CATEGORICAL_2W",
+    "Alias": "Deposit Activity Categorical, Last Two Weeks",
+    "FieldType": "Nvarchar",
+    "Value": "No Recent Deposits"
+  },
+  {
+    "RealFieldName": "DEPOSIT_PERCENTILE_BY_LIFECYCLE_STAGE",
+    "Alias": "Deposit Percentile By Lifecycle Stage",
+    "FieldType": "Nvarchar",
+    "Value": "Bottom 70 Percent Total Deposit Amount"
+  },
+  {
+    "RealFieldName": "DEPOSIT_PERCENTILE_BY_LIFECYCLE_STAGE_2W",
+    "Alias": "Deposit Percentile By Lifecycle Stage, Last Two Weeks",
+    "FieldType": "Nvarchar",
+    "Value": "Bottom 70 Percent Total Deposit Amount"
+  },
+  {
+    "RealFieldName": "ACCOUNTLOCKED",
+    "Alias": "Account Locked",
+    "FieldType": "Nvarchar",
+    "Value": "false"
+  },
+  {
+    "RealFieldName": "DEPOSIT_PERCENTILE_BY_LIFECYCLE_STAGE_3M",
+    "Alias": "Deposit Percentile By Lifecycle Stage, Last Three Months",
+    "FieldType": "Nvarchar",
+    "Value": "Bottom 70 Percent Total Deposit Amount"
+  },
+  {
+    "RealFieldName": "DORMANT_TYPE",
+    "Alias": "Dormant Type",
+    "FieldType": "Nvarchar",
+    "Value": "Non Depositor"
+  },
+  {
+    "RealFieldName": "EMAIL",
+    "Alias": "Email",
+    "FieldType": "Nvarchar",
+    "Value": "dparkes@test.com"
+  },
+  {
+    "RealFieldName": "EQUITIESEXPERIENCE",
+    "Alias": "Equities Experience",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "EXPERIENCEDINTRADING",
+    "Alias": "Experienced in Trading",
+    "FieldType": "Nvarchar",
+    "Value": "false"
+  },
+  {
+    "RealFieldName": "FIRST_ACCOUNT_CREATED_DATE",
+    "Alias": "First Account Created Date",
+    "FieldType": "Date",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FIRST_DEPOSIT_DATE",
+    "Alias": "First Deposit Date",
+    "FieldType": "Date",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FIRST_NAME",
+    "Alias": "First Name",
+    "FieldType": "Nvarchar",
+    "Value": "Daniel"
+  },
+  {
+    "RealFieldName": "FIRST_POSITION_DATE",
+    "Alias": "First Position Date",
+    "FieldType": "Date",
+    "Value": null
+  },
+  {
+    "RealFieldName": "ACCOUNTSOURCE",
+    "Alias": "Account Source",
+    "FieldType": "Nvarchar",
+    "Value": "9sf"
+  },
+  {
+    "RealFieldName": "FLEX_TIME_SINCE_FIRST_DEPOSIT",
+    "Alias": "Time Since First Deposit",
+    "FieldType": "Nvarchar",
+    "Value": "No Deposits"
+  },
+  {
+    "RealFieldName": "FOREX_BRAND_NAME",
+    "Alias": "Brand Name",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_CUSTOMER_ID",
+    "Alias": "Customer ID",
+    "FieldType": "Nvarchar",
+    "Value": "58b2487b-511f-11ed-8e14-42010adc00ea"
+  },
+  {
+    "RealFieldName": "FOREX_LAST_ACTIVITY_DATE",
+    "Alias": "Last Activity Date",
+    "FieldType": "Date",
+    "Value": null
+  },
+  {
+    "RealFieldName": "ADDRESS",
+    "Alias": "Address",
+    "FieldType": "Nvarchar",
+    "Value": "5,Oxcroft View"
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_OPEN_POSITIONS_ACTIVE",
+    "Alias": "Number of Open Positions Active",
+    "FieldType": "Nvarchar",
+    "Value": "Up to 5 Open Positions"
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_OPEN_POSITIONS_INACTIVE",
+    "Alias": "Number of Open Positions Inactive",
+    "FieldType": "Nvarchar",
+    "Value": "No Opened Positions"
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_OPEN_POSITIONS_NEW",
+    "Alias": "Number of Open Positions New",
+    "FieldType": "Nvarchar",
+    "Value": "No Open Positions"
+  },
+  {
+    "RealFieldName": "FOREX_TIME_SINCE_LAST_ACTIVITY",
+    "Alias": "Time Since Last Activity",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_VOLUME_PERCENTILE_BY_LIFECYCLE_STAGE",
+    "Alias": "Volume Percentile By Lifecycle Stage",
+    "FieldType": "Nvarchar",
+    "Value": "Bottom 70 Percent Trade Amount"
+  },
+  {
+    "RealFieldName": "FOREX_VOLUME_PERCENTILE_BY_LIFECYCLE_STAGE_2W",
+    "Alias": "Volume Percentile By Lifecycle Stage, Last Two Weeks",
+    "FieldType": "Nvarchar",
+    "Value": "Bottom 70 Percent Trade Amount"
+  },
+  {
+    "RealFieldName": "ALLOW_EMAIL",
+    "Alias": "Allow Email",
+    "FieldType": "Nvarchar",
+    "Value": "true"
+  },
+  {
+    "RealFieldName": "FOREX_VOLUME_PERCENTILE_BY_LIFECYCLE_STAGE_3M",
+    "Alias": "Volume Percentile By Lifecycle Stage, Last Three Months",
+    "FieldType": "Nvarchar",
+    "Value": "Bottom 70 Percent Trade Amount"
+  },
+  {
+    "RealFieldName": "FOREXEXPERIENCE",
+    "Alias": "Forex Experience",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FUNNELSTAGE",
+    "Alias": "Funnel Stage",
+    "FieldType": "Nvarchar",
+    "Value": "Demo Registered"
+  },
+  {
+    "RealFieldName": "FUTURESEXPERIENCE",
+    "Alias": "Futures Experience",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "GENDER",
+    "Alias": "Gender",
+    "FieldType": "Nvarchar",
+    "Value": "Unknown"
+  },
+  {
+    "RealFieldName": "INACTIVE_TIME_SINCE_LAST_ACTIVITY",
+    "Alias": "Inactive Time Since Last Activity",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "INDIVIDUALORCORPORATEACCOUNT",
+    "Alias": "Individual or corporate account, Last Two Weeks",
+    "FieldType": "Nvarchar",
+    "Value": "Individual"
+  },
+  {
+    "RealFieldName": "IS_BLOCKED",
+    "Alias": "Is Blocked",
+    "FieldType": "Nvarchar",
+    "Value": "Unknown"
+  },
+  {
+    "RealFieldName": "IS_EMAIL_VERIFIED",
+    "Alias": "Is Email Verified",
+    "FieldType": "Nvarchar",
+    "Value": "No"
+  },
+  {
+    "RealFieldName": "IS_OPTIN",
+    "Alias": "Is Optin",
+    "FieldType": "Nvarchar",
+    "Value": "Unknown"
+  },
+  {
+    "RealFieldName": "ALLOW_PUSH",
+    "Alias": "Allow Push",
+    "FieldType": "Nvarchar",
+    "Value": "false"
+  },
+  {
+    "RealFieldName": "IS_SMS_VERIFIED",
+    "Alias": "Is SMS Verified",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IS_TEST",
+    "Alias": "Is Test",
+    "FieldType": "Nvarchar",
+    "Value": "Unknown"
+  },
+  {
+    "RealFieldName": "ISDEMOCUSTOMER",
+    "Alias": "Is Demo Customer",
+    "FieldType": "Nvarchar",
+    "Value": "Yes"
+  },
+  {
+    "RealFieldName": "ISEXCLUDEDUSER",
+    "Alias": "Is Excluded User",
+    "FieldType": "Nvarchar",
+    "Value": "false"
+  },
+  {
+    "RealFieldName": "LANGUAGE",
+    "Alias": "Language",
+    "FieldType": "Nvarchar",
+    "Value": "English"
+  },
+  {
+    "RealFieldName": "LAST_CREATED_DATE",
+    "Alias": "Last Created Date",
+    "FieldType": "Date",
+    "Value": null
+  },
+  {
+    "RealFieldName": "LAST_DEPOSIT_DATE",
+    "Alias": "Last Deposit Date",
+    "FieldType": "Date",
+    "Value": null
+  },
+  {
+    "RealFieldName": "LAST_LOGIN_DATE",
+    "Alias": "Last Login Date",
+    "FieldType": "Date",
+    "Value": null
+  },
+  {
+    "RealFieldName": "LAST_NAME",
+    "Alias": "Last Name",
+    "FieldType": "Nvarchar",
+    "Value": "Parkes Test"
+  },
+  {
+    "RealFieldName": "LAST_POSITION_DATE",
+    "Alias": "Last Position Date",
+    "FieldType": "Date",
+    "Value": null
+  },
+  {
+    "RealFieldName": "ALLOW_SMS",
+    "Alias": "Allow SMS",
+    "FieldType": "Nvarchar",
+    "Value": "true"
+  },
+  {
+    "RealFieldName": "LAST_WITHDRAWAL_DATE",
+    "Alias": "Last Withdrawal Date",
+    "FieldType": "Date",
+    "Value": null
+  },
+  {
+    "RealFieldName": "LIFECYCLESTAGE",
+    "Alias": "Lifecycle Stage",
+    "FieldType": "Nvarchar",
+    "Value": "Dormant"
+  },
+  {
+    "RealFieldName": "LIVEACCOUNTREGISTRATIONDATE",
+    "Alias": "Live Account Registration Date",
+    "FieldType": "Date",
+    "Value": "10/21/2022 00:00:00"
+  },
+  {
+    "RealFieldName": "MOBILE_NUMBER",
+    "Alias": "Mobile Number",
+    "FieldType": "Nvarchar",
+    "Value": "447736799207"
+  },
+  {
+    "RealFieldName": "NUMBER_OF_ACCOUNTS",
+    "Alias": "Number of Accounts",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "PLATFORM_PREFERENCE",
+    "Alias": "Platform Preference",
+    "FieldType": "Nvarchar",
+    "Value": "MT5_NY4"
+  },
+  {
+    "RealFieldName": "PRIMARYDIVISIONNAME",
+    "Alias": "Primary Division Name",
+    "FieldType": "Nvarchar",
+    "Value": "Test Europe"
+  },
+  {
+    "RealFieldName": "READYFORFUNDINGDATE",
+    "Alias": "Ready for Funding Date",
+    "FieldType": "Date",
+    "Value": null
+  },
+  {
+    "RealFieldName": "REFERRAL_TYPE",
+    "Alias": "Referral Type",
+    "FieldType": "Nvarchar",
+    "Value": "Unknown"
+  },
+  {
+    "RealFieldName": "REGISTERED_PLATFORM",
+    "Alias": "Registered Platform",
+    "FieldType": "Nvarchar",
+    "Value": "Unknown"
+  },
+  {
+    "RealFieldName": "APPLICATIONFORMFUNNELSTAGE",
+    "Alias": "Application Form Funnel Stage",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "REGISTRATION_DATE",
+    "Alias": "Registration Date",
+    "FieldType": "Date",
+    "Value": "10/21/2022 00:00:00"
+  },
+  {
+    "RealFieldName": "STATE",
+    "Alias": "State",
+    "FieldType": "Nvarchar",
+    "Value": "Derbyshire"
+  },
+  {
+    "RealFieldName": "TIME_SINCE_DEMO_ACCOUNT_REGISTRATION",
+    "Alias": "Time Since Demo Account Registration",
+    "FieldType": "Nvarchar",
+    "Value": "More than 4 Months"
+  },
+  {
+    "RealFieldName": "TIME_SINCE_FIRST_DEPOSIT",
+    "Alias": "Time Since First Deposit",
+    "FieldType": "Nvarchar",
+    "Value": "No Deposits"
+  },
+  {
+    "RealFieldName": "TIME_SINCE_LIVE_ACCOUNT_REGISTRATION",
+    "Alias": "Time Since Live Account Registration",
+    "FieldType": "Nvarchar",
+    "Value": "More than 4 Months"
+  },
+  {
+    "RealFieldName": "TIME_SINCE_READY_FOR_FUNDING",
+    "Alias": "Time Since Ready For Funding",
+    "FieldType": "Nvarchar",
+    "Value": "Not Ready for Funding"
+  },
+  {
+    "RealFieldName": "TOTAL_ACCOUNTS_BALANCE_USD",
+    "Alias": "Total Accounts Balance Usd",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "TOTAL_ACCOUNTS_MARGIN_AVAILABLE_USD",
+    "Alias": "Total Accounts Margin Available Usd",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "TOTAL_ACCOUNTS_MARGIN_USED_USD",
+    "Alias": "Total Accounts Margin Used Usd",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "TRADE_FREQUENCY",
+    "Alias": "Trade Frequency",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "ASSET_CLASS_PREFERENCE",
+    "Alias": "Asset Class Preference",
+    "FieldType": "Nvarchar",
+    "Value": "Rates"
+  },
+  {
+    "RealFieldName": "FLEX_DEPOSIT_ACTIVITY_REACTIVATED_2W",
+    "Alias": "Flex Deposit Activity Reactivated 2W",
+    "FieldType": "Nvarchar",
+    "Value": "No Recent Deposits"
+  },
+  {
+    "RealFieldName": "FOREX_FAVORITE_ASSET_CATEGORY",
+    "Alias": "Forex Favorite Asset Category",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_FAVORITE_ASSET_CATEGORY_3M",
+    "Alias": "Forex Favorite Asset Category 3M",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_FAVORITE_ASSET_NAME",
+    "Alias": "Forex Favorite Asset Name",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_LIFECYCLE_STAGE_BEFORE_CHURN",
+    "Alias": "Forex Lifecycle Stage Before Churn",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_NUMBER_OF_TIMES_CHURNED_CATEGORICAL",
+    "Alias": "Forex Number of Times Churned Categorical",
+    "FieldType": "Nvarchar",
+    "Value": "Never Churned"
+  },
+  {
+    "RealFieldName": "FOREX_PREVIOUS_LIFECYCLESTAGE",
+    "Alias": "Forex Previous Lifecycle Stage",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "FOREX_REACTIVATION_ACTION",
+    "Alias": "Forex Reactivation Action",
+    "FieldType": "Nvarchar",
+    "Value": null
+  },
+  {
+    "RealFieldName": "IF_IS_TOP_SPENDER",
+    "Alias": "Is Top Spender?",
+    "FieldType": "Varchar",
+    "Value": "No"
+  },
+  {
+    "RealFieldName": "IF_RANDOM_CUSTOMER_PERCENTILE",
+    "Alias": "Random Customer Percentage",
+    "FieldType": "Varchar",
+    "Value": "27%"
+  }
+]

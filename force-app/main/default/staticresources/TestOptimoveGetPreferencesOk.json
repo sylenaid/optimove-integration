@@ -1,0 +1,45 @@
+{
+  "topics": [
+    {
+      "topicId": "f6c1533c-6cca-487e-abe1-9c64c05dd87f",
+      "topicName": "Education",
+      "topicDescription": "webinars, learn section content, how to content, e",
+      "channelSubscription": [
+        15
+      ]
+    },
+    {
+      "topicId": "883a7faf-672b-4321-a37a-cab2c2905910",
+      "topicName": "Market News",
+      "topicDescription": "Marketpulse, technical trading, fundamental analys",
+      "channelSubscription": [
+        15
+      ]
+    },
+    {
+      "topicId": "c96c37a3-c1c4-47cb-9a79-b99d509a39d3",
+      "topicName": "Product Updates",
+      "topicDescription": "platforms, tools, partner products, etc.",
+      "channelSubscription": []
+    },
+    {
+      "topicId": "9a601584-c674-4078-889f-a91b3fd3856c",
+      "topicName": "Promotions",
+      "topicDescription": "offers, bonuses, etc.",
+      "channelSubscription": [
+        15
+      ]
+    },
+    {
+      "topicId": "95916928-b456-4521-abd1-77c841471e6d",
+      "topicName": "Surveys and res",
+      "topicDescription": "surveys, focus groups, feedback, etc.",
+      "channelSubscription": [
+        15
+      ]
+    }
+  ],
+  "channels": [
+    15
+  ]
+}
