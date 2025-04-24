@@ -1,0 +1,65 @@
+<!--
+  @description       : 
+  @author            : SkyPlanner - Dianelys Velazquez
+  @group             : 
+  @last modified on  : 09-30-2024
+  @last modified by  : SkyPlanner - Dianelys Velazquez
+-->
+<template>
+    <lightning-modal-header label="Template Details"></lightning-modal-header>
+    <lightning-modal-body>
+        <div class="slds-box--x-small">
+            <lightning-layout
+                horizontal-align="start"
+                vertical-align="start"
+                multiple-rows="true"
+            >
+                <lightning-layout-item
+                    size="12"
+                    class="slds-var-m-bottom_x-small"
+                >
+                    <lightning-layout
+                        horizontal-align="start"
+                        vertical-align="center"
+                    >
+                        <lightning-layout-item
+                            size="1"
+                            class="slds-var-m-left_x-small"
+                        >
+                            <p>Name</p>
+                        </lightning-layout-item>
+                        <lightning-layout-item size="10" class="slds-box">
+                            <lightning-formatted-rich-text
+                                value={subject}
+                            ></lightning-formatted-rich-text>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+                <lightning-layout-item size="12">
+                    <lightning-layout
+                        horizontal-align="start"
+                        vertical-align="center"
+                    >
+                        <lightning-layout-item
+                            size="1"
+                            class="slds-var-m-left_x-small"
+                        >
+                            <p>Content</p>
+                        </lightning-layout-item>
+                        <lightning-layout-item size="10" class="slds-box">
+                            <lightning-formatted-rich-text
+                                value={body}
+                            ></lightning-formatted-rich-text>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <lightning-button
+            label="Close"
+            onclick={handleClose}
+        ></lightning-button>
+    </lightning-modal-footer>
+</template>

@@ -1,8 +1,8 @@
 <!--
-  @description       : 
+  @description       : LWC for opt-in/out Optimove communication preferences
   @author            : SkyPlanner - Dianelys Velazquez
   @group             : 
-  @last modified on  : 09-08-2024
+  @last modified on  : 09-19-2024
   @last modified by  : SkyPlanner - Dianelys Velazquez
 -->
 <template>
@@ -62,6 +62,15 @@
         <template lwc:if={loaded}>
             <div class="slds-p-horizontal_small">
                 <table class="slds-table">
+                    <tr class="slds-is-selected">
+                        <th colspan={cols}>
+                            <div
+                                class="slds-text-align_center slds-text-heading_small slds-p-vertical_small"
+                            >
+                                Channels
+                            </div>
+                        </th>
+                    </tr>
                     <tr>
                         <th></th>
                         <template
@@ -94,7 +103,7 @@
                             </th>
                         </template>
                     </tr>
-                    <tr>
+                    <tr class="slds-is-selected">
                         <th colspan={cols}>
                             <div
                                 class="slds-text-align_center slds-text-heading_small slds-p-vertical_small"

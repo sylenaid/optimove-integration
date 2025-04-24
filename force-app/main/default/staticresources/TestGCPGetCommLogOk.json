@@ -1,0 +1,138 @@
+[
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "1",
+    "TemplateName": "Incomplete application TEST",
+    "ScheduleTime": "2024-07-10 01:32:23",
+    "IsMarketingSend": "true"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "5",
+    "TemplateName": "Corporate action client notification",
+    "ScheduleTime": "2024-06-01 12:23:22",
+    "IsMarketingSend": "false"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "3",
+    "TemplateName": "Campaign Assigned STAGING",
+    "ScheduleTime": "2024-08-01 23:54:17",
+    "IsMarketingSend": "true"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "7",
+    "TemplateName": "Corporate action client notification(1)",
+    "ScheduleTime": "2024-07-04 18:08:12",
+    "IsMarketingSend": "false"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "5",
+    "TemplateName": "Corporate action client notification",
+    "ScheduleTime": "2024-08-21 17:34:11",
+    "IsMarketingSend": "true"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "9",
+    "TemplateName": "Email Validation 1 - OC-EN",
+    "ScheduleTime": "2024-09-11 15:45:45",
+    "IsMarketingSend": "false"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "11",
+    "TemplateName": "Email Validation - OCAN-EN",
+    "ScheduleTime": "2024-09-04 11:56:00",
+    "IsMarketingSend": "true"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "15",
+    "TemplateName": "Market news TEST",
+    "ScheduleTime": "2024-09-06 10:54:23",
+    "IsMarketingSend": "true"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "17",
+    "TemplateName": "Product update test",
+    "ScheduleTime": "2024-08-11 06:41:44",
+    "IsMarketingSend": "true"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "11",
+    "TemplateName": "Email Validation 2 - OCAN-EN",
+    "ScheduleTime": "2024-07-31 02:47:11",
+    "IsMarketingSend": "false"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "19",
+    "TemplateName": "Survey email test",
+    "ScheduleTime": "2024-09-03 01:56:41",
+    "IsMarketingSend": "true"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "21",
+    "TemplateName": "Key Information Document",
+    "ScheduleTime": "2024-09-03 01:56:41",
+    "IsMarketingSend": "true"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "15",
+    "TemplateID": "21",
+    "TemplateName": "OEL KID ENG",
+    "ScheduleTime": "2024-10-01 02:47:11",
+    "IsMarketingSend": "false"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "493",
+    "TemplateID": "1",
+    "TemplateName": "SMS Test 1",
+    "ScheduleTime": "2024-10-01 02:47:11",
+    "IsMarketingSend": "false"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "493",
+    "TemplateID": "2",
+    "TemplateName": "SMS Test 2",
+    "ScheduleTime": "2024-10-01 02:47:11",
+    "IsMarketingSend": "false"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "489",
+    "TemplateID": "1",
+    "TemplateName": "Push Test 1",
+    "ScheduleTime": "2024-10-01 02:47:11",
+    "IsMarketingSend": "false"
+  },
+  {
+    "CustomerID": "0340afed-a726-11eb-ae53-42010adc00e4",
+    "ChannelID": "489",
+    "TemplateID": "2",
+    "TemplateName": "Push Test 2",
+    "ScheduleTime": "2024-10-01 02:47:11",
+    "IsMarketingSend": "false"
+  }
+]

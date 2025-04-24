@@ -1,0 +1,56 @@
+[
+  {
+    "Date": "2024-08-20",
+    "CampaignID": 422,
+    "RecipientGroupID": 1,
+    "ActionID": 26,
+    "ChannelID": 15,
+    "TemplateID": 5,
+    "EventID": 2
+  },
+  {
+    "Date": "2024-08-27",
+    "CampaignID": 428,
+    "RecipientGroupID": 1,
+    "ActionID": 28,
+    "ChannelID": 15,
+    "TemplateID": 3,
+    "EventID": 3
+  },
+  {
+    "Date": "2024-08-27",
+    "CampaignID": 428,
+    "RecipientGroupID": 1,
+    "ActionID": 28,
+    "ChannelID": 15,
+    "TemplateID": 15,
+    "EventID": 4
+  },
+  {
+    "Date": "2024-08-27",
+    "CampaignID": 428,
+    "RecipientGroupID": 1,
+    "ActionID": 28,
+    "ChannelID": 15,
+    "TemplateID": 17,
+    "EventID": 5
+  },
+  {
+    "Date": "2024-08-27",
+    "CampaignID": 428,
+    "RecipientGroupID": 1,
+    "ActionID": 28,
+    "ChannelID": 15,
+    "TemplateID": 19,
+    "EventID": 6
+  },
+  {
+    "Date": "2024-08-27",
+    "CampaignID": 428,
+    "RecipientGroupID": 1,
+    "ActionID": 28,
+    "ChannelID": 15,
+    "TemplateID": 7,
+    "EventID": 7
+  }
+]

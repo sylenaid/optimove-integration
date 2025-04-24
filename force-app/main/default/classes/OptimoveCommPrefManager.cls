@@ -2,7 +2,7 @@
  * @description       :
  * @author            : SkyPlanner - Dianelys Velazquez
  * @group             :
- * @last modified on  : 08-22-2024
+ * @last modified on  : 09-25-2024
  * @last modified by  : SkyPlanner - Dianelys Velazquez
  **/
 public with sharing class OptimoveCommPrefManager {
@@ -65,9 +65,9 @@ public with sharing class OptimoveCommPrefManager {
         List<Integer> preferenceChannels
     ) {
         List<Optimove_Settings__mdt> result = new List<Optimove_Settings__mdt>();
-        List<Optimove_Settings__mdt> channelsEnableBySetting = settings.getChannelSettigs();
+        List<Optimove_Settings__mdt> channelsEnabledBySetting = settings.getChannelSettigs();
 
-        for (Optimove_Settings__mdt channel : channelsEnableBySetting) {
+        for (Optimove_Settings__mdt channel : channelsEnabledBySetting) {
             Integer channelId = Integer.valueOf(channel.External_Id__c);
 
             if (
